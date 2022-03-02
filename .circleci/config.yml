@@ -14,7 +14,7 @@ jobs:
       - run: aws s3 sync ./app/build s3://mission04bucket-v2
 
 workflows:
-  version: 2.1
+  version: 2
   execute_bulk:
     jobs:
       - build_deploy
