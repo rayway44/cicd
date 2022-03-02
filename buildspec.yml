@@ -22,6 +22,7 @@ build:
   - yarn test
   - echo BUILDING. . .
   - yarn build
+  - npm start
 
 artifacts:
  files:
