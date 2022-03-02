@@ -3,7 +3,7 @@ jobs:
   machine:
    image: ubuntu-2004:202010-01
   steps:
-   - checkout
+   - checkout:
    - run:
     name: Installing AWS CLI
     command:
