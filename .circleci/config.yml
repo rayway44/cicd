@@ -5,7 +5,7 @@ jobs:
     steps:
       - checkout
       - run:
-      - name: Installing AWS CLI
+       name: Installing AWS CLI
       - command:
           sudo apt-get update
           sudo apt install python3-pip
