@@ -28,4 +28,4 @@ artifacts:
  - "**/*"
  discard-paths: no
  - echo we are here WE ARE HERE we are here WE ARE HERE we are here WE ARE HERE . . .
- base-directory: dist
+ base-directory: 'dist'
