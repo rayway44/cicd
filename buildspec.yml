@@ -26,6 +26,5 @@ build:
 artifacts:
  files:
  - "**/*"
- discard-paths: yes
- - echo we are here WE ARE HERE we are here WE ARE HERE we are here WE ARE HERE . . .
+ discard-paths: no
  base-directory: dist
