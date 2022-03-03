@@ -5,12 +5,8 @@ import Header from "./Components/Header"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-        <h2>Getting started with React testing library learn react stuart no deal<br/> I have added #RAYway</h2>
+        <h2>Welcome<br/>Mission 04</h2>
         <Header />
-        We are changing it up
-      </header>
     </div>
   );
 }
