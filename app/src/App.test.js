@@ -7,11 +7,11 @@ test(`removes special characters reformatting '$hello world' to hello world`,() 
 })
 
 // in link element variable the test is looking for 'learn react' to be rendered in the DOM
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/Header/i);
-  expect(linkElement).toBeInTheDocument();
-});
+// test('renders learn react link', () => {
+//   render(<App />);
+//   const linkElement = screen.getByText(/Header/i);
+//   expect(linkElement).toBeInTheDocument();
+// });
 
 // in link element the test is looking for 'learn react' to be rendered in the DOM
 test('looks for stuart', () => {
