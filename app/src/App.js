@@ -9,7 +9,7 @@ function App() {
         
         <h2>Getting started with React testing library learn react stuart no deal<br/> I have added #RAYway</h2>
         <Header />
-        This is kicking 
+        We are changing it up
       </header>
     </div>
   );
