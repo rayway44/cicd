@@ -27,14 +27,10 @@ function watsonTester(){
 
 }
 
-function clicker(){
-  console.log('youve hit me now what')
-}
-
   return (
     <div>
       
-      <img src="./Images/turners-logo.png" />
+      <img src="./Images/turners-logo.png" alt='turners logo'/>
       <h1>FAQ Search</h1>
       <input type="text" id="textBox" placeholder="e.g. what fees are there ?" />
 
